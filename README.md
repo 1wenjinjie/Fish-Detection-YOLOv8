@@ -2,7 +2,7 @@
 
 Welcome to **Fish-Detection-YOLOv8**! This repository is focused on detecting fish species using the YOLOv8 (You Only Look Once) object detection algorithm. It aims to provide accurate and efficient fish detection models for various applications, including marine biology research, fish population monitoring, and automated fishing systems.
 
-![Git](https://img.shields.io/badge/Git-Interactive-red?logo=git) ![Python](https://img.shields.io/badge/Python-Interactive-blue?logo=python)
+![Fish Animation](https://example.com/path-to-your-fish-animation.gif)
 
 ## Features
 - **State-of-the-Art Model**: Utilizes YOLOv8, a cutting-edge object detection algorithm.
