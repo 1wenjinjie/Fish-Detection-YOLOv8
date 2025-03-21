@@ -28,28 +28,3 @@ This project leverages the YOLOv8 algorithm to detect fish species with high acc
 1. **Clone the Repository**: 
    ```bash
    git clone https://github.com/Vinay0905/Fish-Detection-YOLOv8.git
-Setup the Environment:
-Install the required dependencies using requirements.txt.
-bash
-pip install -r requirements.txt
-Train the Model:
-Use the provided training scripts to train the model on your dataset.
-bash
-python train.py --data data/fish.yaml --cfg yolov8.yaml --weights yolov8.pt
-Evaluate the Model:
-Evaluate the model's performance using the evaluation scripts.
-bash
-python evaluate.py --data data/fish.yaml --weights runs/train/exp/weights/best.pt
-Deploy the Model:
-Deploy the model for real-time fish detection in various applications.
-bash
-python detect.py --source your_video.mp4 --weights runs/train/exp/weights/best.pt
-Contributing
-Contributions are welcome! If you have improvements, bug fixes, or new features to add, please create a pull request. Ensure your code is well-documented and follows the repository's coding standards.
-
-License
-This repository is licensed under the MIT License. See the LICENSE file for more details.
-
-Acknowledgements
-Special thanks to the developers of YOLOv8 and the contributors who have provided valuable datasets and resources for this project.
-
