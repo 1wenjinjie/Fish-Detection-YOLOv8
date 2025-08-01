@@ -14,15 +14,7 @@ This project leverages the YOLOv8 algorithm to detect fish species with high acc
 - **Comprehensive Dataset**: Includes a well-curated dataset of fish images for training and evaluation.
 - **Easy to Use**: Provides scripts and tools for training, evaluating, and deploying the model.
 
-## Topics Covered
-- Algorithms
-- Data Structures
-- Dynamic Programming
-- Graph Theory
-- Sorting and Searching
-- String Manipulation
-- Mathematics
-- Bit Manipulation
+
 
 ## How to Use This Repository
 1. **Clone the Repository**: 
