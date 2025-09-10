@@ -1,13 +1,35 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: ./train/images
+val: ./valid/images
+test: ./test/images
 
-nc: 26
-names: ['Acanthuridae -Surgeonfishes-', 'Balistidae -Triggerfishes-', 'Carangidae -Jacks-', 'Ephippidae -Spadefishes-', 'Labridae -Wrasse-', 'Lutjanidae -Snappers-', 'Pomacanthidae -Angelfishes-', 'Pomacentridae -Damselfishes-', 'Scaridae -Parrotfishes-', 'Scombridae -Tunas-', 'Serranidae -Groupers-', 'Shark -Selachimorpha-', 'Zanclidae (Moorish Idol)', 'Zanclidae -Moorish Idol-', 'angel', 'damsel', 'grouper', 'jack', 'parrot', 'shark', 'snapper', 'spade', 'surgeon', 'trigger', 'tuna', 'wrasse']
+# number of classes
+nc: 8
 
-roboflow:
-  workspace: roboflow-gw7yv
-  project: fish-yzfml
-  version: 1
-  license: Public Domain
-  url: https://universe.roboflow.com/roboflow-gw7yv/fish-yzfml/dataset/1
+# class names
+names: [# 添加所有修改的文件到暂存区
+git add .
+
+# 或者添加特定文件
+git add data.yaml
+
+# 提交更改
+git commit -m "添加数据集配置文件"
+
+# 推送到远程仓库
+git push origin main# 查看文件状态
+git status
+
+# 查看具体更改
+git diff# 查看文件状态
+git status
+
+# 查看具体更改
+git diff# 查看文件状态
+git status
+
+# 查看具体更改
+git diff# 查看文件状态
+git status
+
+# 查看具体更改
+git diff'Clown Fish', 'Crab', 'Cuttlefish', 'Jellyfish', 'Prawn', 'SeaHorse', 'Squid', 'Starfish']
