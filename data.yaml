@@ -6,30 +6,4 @@ test: ./test/images
 nc: 8
 
 # class names
-names: [# 添加所有修改的文件到暂存区
-git add .
-
-# 或者添加特定文件
-git add data.yaml
-
-# 提交更改
-git commit -m "添加数据集配置文件"
-
-# 推送到远程仓库
-git push origin main# 查看文件状态
-git status
-
-# 查看具体更改
-git diff# 查看文件状态
-git status
-
-# 查看具体更改
-git diff# 查看文件状态
-git status
-
-# 查看具体更改
-git diff# 查看文件状态
-git status
-
-# 查看具体更改
-git diff'Clown Fish', 'Crab', 'Cuttlefish', 'Jellyfish', 'Prawn', 'SeaHorse', 'Squid', 'Starfish']
+names: ['Clown Fish', 'Crab', 'Cuttlefish', 'Jellyfish', 'Prawn', 'SeaHorse', 'Squid', 'Starfish']
